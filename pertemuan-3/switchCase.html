@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Belajar Javascript Part 10 : Switch Case Di Javascript</title>
+</head>
+<body>
+ <h1>Switch Case Di Javascript</h1>
+ <h2>www.malasngoding.com</h2>
+ 
+ <!-- id hasil -->
+ <div id="hasil"></div>
+
+ <script>
+     var warna = "merah";
+     
+    switch (warna){
+    case "hitam":
+    teks = "warna hitam";
+    break;
+    case "merah":
+    teks = "Warna merah";
+    break;
+    case "hijau":
+    teks = "Warna hijau";
+    break;
+    default:
+    teks = "Warna tidak terdeteksi";
+    }
+
+    document.getElementById("hasil").innerHTML = teks;
+ </script>
+ 
+ 
+</body>
+</html>
